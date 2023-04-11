@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+/* body css */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* header css */
+
+header.primary {
+  height: 60px;
+  background-color: #00A3FF;
+  display: flex;
+  align-items: center;
+}
+
+/* navbar css */
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.desktop-nav-item {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.desktop-nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.desktop-nav-link:hover {
+  text-shadow: 2px 2px #000000;
+  transition: all 0.3s ease-in-out;
+}
